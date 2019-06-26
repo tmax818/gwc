@@ -99,8 +99,18 @@ print(item_check)
 
 ## functions print() input() range()
 
-# def my_print_func():
-#     print("Sup, Bro")
+def my_print_func():
+    print("Sup, Bro")
 
-# def square(num):
-#     pass
+my_print_func()
+
+
+def square(num):
+    return num ** 2
+
+print(square(4))
+
+def add(a, b):
+    return a + b 
+
+print(add(10, 20))

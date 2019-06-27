@@ -1,10 +1,8 @@
 import filters
 
 def main():
-    img = filters.load_img("obama.jpg")
-    filters.obamicon(img)
-    saved_img = img.save('newobama.jpg')
-    print(saved_img.title)
+    new_image = filters.obamicon('obama.jpg')
+    filters.show_img(new_image)
 
 
 

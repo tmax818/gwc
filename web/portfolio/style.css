@@ -1,0 +1,45 @@
+body {
+    padding: 5px;
+}
+
+h1 {
+    color: coral;
+    text-align: center;
+}
+
+img {
+    float: left;
+}
+
+nav {
+    background-color: aquamarine;
+}
+
+.outer {
+    margin: 4px;
+    padding: 4px;
+    border: 2px solid black;
+}
+
+.inner {
+    margin: 4px;
+    padding: 4px;
+    border: 2px solid red; 
+}
+
+.red {
+    color:red;
+}
+
+#test {
+    color: blue;
+}
+
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
